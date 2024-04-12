@@ -14,22 +14,22 @@ const links = [
       "Los mejores calcetines de Somalia del Sur",
   },
   {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
+    text: "Tienda Online",
+    url: "https://www.youtube.com/watch?v=s8GIOQXX9Zc",
     description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
+      "Descubre nuestras mejores ofertas jiji",
   },
   {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
+    text: "Ofertas",
+    url: "https://www.youtube.com/watch?v=5B3JGUXSRJo",
     description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
+      "Mondongo",
   },
   {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
+    text: "Ultimos añadidos",
+    url: "https://www.youtube.com/watch?v=P31z2qbErpc",
     description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
+      "Si",
   },
 ]
 
@@ -73,7 +73,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/monjas.jpg"
         loading="eager"
         width={64}
         quality={95}
@@ -82,7 +82,7 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Calcetines <b>Dani</b>
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}

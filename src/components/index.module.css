@@ -52,3 +52,7 @@
   max-width: none;
   line-height: var(--line-height-loose);
 }
+body{
+  background: rgb(141,250,247);
+background: linear-gradient(90deg, rgba(141,250,247,1) 0%, rgba(180,246,244,1) 28%, rgba(242,242,242,1) 49%, rgba(248,217,250,1) 66%, rgba(224,156,240,1) 100%);
+}
